@@ -1,0 +1,25 @@
+div{
+	color: green;
+	background-color: black;
+}
+
+/*
+se len las etiquetas de derecha a izquierda
+*/   
+p a{
+  color: green;
+}
+
+body{
+  background-color: #9ac6c0;
+}
+
+p{
+  color: #666666;
+  font-family: "Arial", "Verdana";
+  font-size: 15px;
+}
+
+.planta{
+  width: 100px;
+}
