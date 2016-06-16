@@ -1,4 +1,71 @@
-div{
+body{
+
+  font-family: Arial;
+  background: #f1f1f1;
+}
+
+.header-principal{
+  text-align: center;
+  margin: 0 -9999rem;
+  padding: 0.25rem 9999rem;
+  background: black;
+  color: white;
+}
+
+.menu{
+  position: absolute;
+  right: 15%;
+  top: 5px;
+  list-style: none;
+}
+.menu a li{
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.menu a li:hover{
+  background: #ccc;
+}
+
+.informacion-personal{
+  padding-top: 20px;
+  margin: auto;
+  border: 1px solid #ccc;
+  width: 30%;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  text-align: center;
+  display: block;
+}
+
+.Info{
+  position: absolute;
+  right: 25%;
+  top: 380px;
+}
+
+.Contacts{
+  position: absolute;
+  left: 25%;
+  top: 380px;
+}
+
+.informacion-edu{
+  padding-top: 20px;
+  margin: auto;
+  border: 1px solid #ccc;
+  width: 30%;
+  border-top:none;
+  border-left:none;
+  border-right:none;
 
 }
 
+img{
+  position: absolute;
+  right: 15%;
+  top: 130px;
+  width: 150px;
+}
