@@ -33,7 +33,10 @@ ul{
   padding: 10px;
 }
 
-.menu-Navegacion li, .menu-Navegacion a{
+.menu-Navegacion li, 
+.menu-Navegacion a, 
+.informacion-edu li li, 
+.informacion-edu li li a{
   display: inline;
   background: #096018;
   margin: 10px;
@@ -43,7 +46,10 @@ ul{
 }
 
 .menu-Navegacion li:hover,
-.menu-Navegacion li:hover a{
+.menu-Navegacion li:hover a, 
+.informacion-edu li li:hover,
+.informacion-edu li li:hover a
+{
   background: #FFF;
   color: #096018;
 }
@@ -57,3 +63,15 @@ ul{
   height: 300px;
   border-radius: 50%;
 }
+
+.informacion-edu{
+  text-align: left;
+}
+
+.informacion-edu ol li{
+  font-weight: bold;
+}
+.informacion-edu li{
+  margin: 20px;
+}
+
