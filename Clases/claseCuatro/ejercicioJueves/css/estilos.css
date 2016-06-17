@@ -1,0 +1,48 @@
+div{
+  font-size: 30pt;
+  width: 250px;
+  height: 150px;
+  float: left;
+}
+
+.caja{
+  position: absolute;
+  top: 200px;
+  bottom: 0px;
+  right: 0px;
+  left: 150px;
+}
+
+.cajaGrande{
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.verde{
+  background: green;
+}
+
+.rojo{
+  background: red;
+}
+
+.azul{
+  background: blue;
+}
+
+.rosa{
+  background: pink;
+}
+
+.cajaL{
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.cajaR{
+  float: right;
+  width: 50%;
+  height: 100%;
+}
