@@ -1,0 +1,7 @@
+input{
+	display: inline-block;
+}
+
+#operador, #resutado{
+	display: inline-block;	
+}
