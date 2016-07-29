@@ -1,0 +1,83 @@
+body{
+	background-color: #30231d;
+}
+
+.title{
+	color: #FFF;
+	text-align: center;
+}
+
+.title img{
+	position: relative;
+	top: 20px;
+	width: 300px;
+}
+
+hr{
+    height: 30px;
+    border-style: solid;
+    border-color: #FFF;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color:  #FFF;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+nav{
+	background-color: #f6f1ed;
+}
+
+.brand-logo img{
+	position: relative;
+	left: 10px;
+	top: 10px;
+	margin-right: 10px;
+}
+
+#Mesa{
+	top: 80px;
+	background-color: #b5a397;
+	margin: 50px;
+	padding: 20px;
+}
+
+p label{
+	color: black;
+}
+
+#Orden{
+	margin: 50px;
+}
+
+span{
+	text-shadow: 2px 0 4px #000;
+}
+
+#Ticket{
+	color: #FFF;
+	text-align: center;
+}
+
+#Ticket h2{
+	display: inline;
+}
+
+#Ticket button{
+	background-color: black;
+	margin-left: 30px;
+	margin-bottom: 50px;
+}
+.ticketFinal{
+	background: #b5a397;
+}
+
+
+
